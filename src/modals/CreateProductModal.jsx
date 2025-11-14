@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
-import { useDispatch } from "../../../frontend/node_modules/react-redux/src/hooks/useDispatch";
+import { useSelector, useDispatch } from "react-redux";
 import { createNewProduct } from "../store/slices/productSlice";
 import { toggleCreateProductModal } from "../store/slices/extraSlice";
 import { LoaderCircle } from "lucide-react";
